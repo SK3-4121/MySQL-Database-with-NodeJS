@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const mysql = require("mysql2")
 
 const Prefix = "/"
-const Token = "Nzg4ODUzMzU5NjcwNDYwNDE2.X9pi8Q.pM-GF9sfupL88dIGmq87XjXQzck"
+const Token = "Token"
 const bot = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 
 const connection = mysql.createConnection({
